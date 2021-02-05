@@ -17,7 +17,7 @@ const Article = connection.define('articles', {
     }
 });
 
-// Relationships
+// Relacionamentos 
 Category.hasMany(Article);   // UMA Categoria tem muitos artigos
 Article.belongsTo(Category); // UM Artigo pertence a uma categoria
 
